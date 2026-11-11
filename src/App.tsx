@@ -1,14 +1,12 @@
-import { Button } from "@/components/ui/button";
+import Layout from "@/components/layout";
 
 function App() {
   return (
-    <div className="p-6">
-      <h1 className="mb-4 text-2xl font-semibold">
-        Posts Reader
-      </h1>
-
-      <Button>It works</Button>
-    </div>
+    <Layout>
+      <p className="mt-10 text-muted-foreground">
+        Posts will appear here in Lab 11.
+      </p>
+    </Layout>
   );
 }
 
