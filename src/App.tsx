@@ -1,5 +1,15 @@
+import { Button } from "@/components/ui/button";
+
 function App() {
-  return <h1 className="p-6 text-2xl font-semibold">Posts Reader</h1>;
+  return (
+    <div className="p-6">
+      <h1 className="mb-4 text-2xl font-semibold">
+        Posts Reader
+      </h1>
+
+      <Button>It works</Button>
+    </div>
+  );
 }
 
 export default App;
