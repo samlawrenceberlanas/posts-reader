@@ -1,12 +1,15 @@
+
+import { Route, Routes } from "react-router";
 import Layout from "@/components/layout";
+import Home from "@/pages/home";
 
 function App() {
   return (
-    <Layout>
-      <p className="mt-10 text-muted-foreground">
-        Posts will appear here in Lab 11.
-      </p>
-    </Layout>
+    <Routes>
+      <Route element={<Layout />}>
+        <Route path="/" element={<Home />} />
+      </Route>
+    </Routes>
   );
 }
 
